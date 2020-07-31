@@ -1,0 +1,61 @@
+﻿빌드 시작: 2015-12-25 오후 11:46:55
+     1>2 노드의 "C:\Users\태양\Documents\Visual Studio 2013\Projects\API\Win32Project5\Win32Project5\Win32Project5.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt bullet.cpp cStateManger.cpp frame.cpp Game.cpp GameWorld.cpp Hero.cpp Logo.cpp Main.cpp Menu.cpp Monster.cpp scene.cpp sceneManager.cpp
+         sceneManager.cpp
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\cgdigraphics.h(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+         scene.cpp
+         Monster.cpp
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\cgdigraphics.h(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+         Menu.cpp
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\cgdigraphics.h(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+         Main.cpp
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\cgdigraphics.h(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\main.cpp(62): warning C4244: '=' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\main.cpp(83): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+         Logo.cpp
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\cgdigraphics.h(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+         Hero.cpp
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\cgdigraphics.h(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+         GameWorld.cpp
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\cgdigraphics.h(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\gameworld.cpp(9): warning C4244: '=' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\gameworld.cpp(10): warning C4244: '=' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Game.cpp
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\cgdigraphics.h(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+         frame.cpp
+         cStateManger.cpp
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\cgdigraphics.h(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+         bullet.cpp
+     1>c:\users\태양\documents\visual studio 2013\projects\api\win32project5\win32project5\cgdigraphics.h(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\태양\Documents\Visual Studio 2013\Projects\API\Win32Project5\Debug\Win32Project5.exe" /INCREMENTAL /NOLOGO Msimg32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\태양\Documents\Visual Studio 2013\Projects\API\Win32Project5\Debug\Win32Project5.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\태양\Documents\Visual Studio 2013\Projects\API\Win32Project5\Debug\Win32Project5.lib" /MACHINE:X86 Debug\bullet.obj
+         Debug\cStateManger.obj
+         Debug\frame.obj
+         Debug\Game.obj
+         Debug\GameWorld.obj
+         Debug\Hero.obj
+         Debug\Logo.obj
+         Debug\Main.obj
+         Debug\Menu.obj
+         Debug\Monster.obj
+         Debug\scene.obj
+         Debug\sceneManager.obj
+         Win32Project5.vcxproj -> C:\Users\태양\Documents\Visual Studio 2013\Projects\API\Win32Project5\Debug\Win32Project5.exe
+     1>"C:\Users\태양\Documents\Visual Studio 2013\Projects\API\Win32Project5\Win32Project5\Win32Project5.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:12.19

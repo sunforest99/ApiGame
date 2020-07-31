@@ -1,0 +1,14 @@
+#pragma once
+
+class cState
+{
+public:
+	cState() {}
+	virtual ~cState() {}
+
+	virtual void Init() = 0;
+	virtual void Update(float et) = 0;
+	virtual void Render() = 0;
+	virtual int Destroy() = 0;
+	virtual LRESULT MsgProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam) = 0;
+};

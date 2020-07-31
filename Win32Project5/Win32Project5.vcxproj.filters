@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{b422c8c0-33c2-45d2-a533-ab291c63a760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{ad0b1234-f26c-4ceb-9633-6a309842a950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{ec260824-e40e-4ed4-8229-3e69b8fc7fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{76efaeed-089c-40be-8659-72534468babf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="state">
+      <UniqueIdentifier>{1654cc05-4797-4820-aa44-dd2deed43949}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="scene.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="frame.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="cStateManger.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scene.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="cGdiImage.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="cSound.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="cGdiGraphics.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="My_Include.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="My_Extern.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="cState.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="My_Define.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="cStateManger.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="NumricUtils.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
